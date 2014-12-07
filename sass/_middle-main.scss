@@ -1,13 +1,16 @@
 .middle-main {
-  width: 900px;
+  position: absolute;
   height: 550px;
+  width: 70%;
   padding: 20px;
   background: url(../img/grey_wash_wall.png);
-  float:left;
   display: block;
-  margin-left: 50px;
+  margin-left: 300px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px #3B3B3E;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-x:auto;
   h2 {
     font-family: 'Lato', sans-serif;
     text-align: left;
@@ -57,20 +60,24 @@
       height:281px;
     }
   }
+
 }
 
 .middle-main2 {
-  width: 900px;
+  position: absolute;
+  margin-top: 600px;
+  margin-bottom: 40px;
   height: 550px;
+  width: 70%;
   padding: 20px;
   background: url(../img/grey_wash_wall.png);
-  float: right;
-  margin-top: 20px;
-  margin-right: 45px;
   display: block;
-  margin-left: 50px;
+  margin-left: 300px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px #3B3B3E;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-x:auto;
   h2 {
     font-family: 'Lato', sans-serif;
     text-align: left;
