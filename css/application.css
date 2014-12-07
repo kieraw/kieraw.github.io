@@ -1,0 +1,199 @@
+/* line 2, ../sass/_header.scss */
+.header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 8, ../sass/_header.scss */
+.header hr {
+  border-color: #2B2B35;
+  border-width: 15px;
+}
+
+/* line 1, ../sass/_left-sidebar.scss */
+.left-sidebar {
+  width: 150px;
+  height: 550px;
+  background: url(../img/witewall_3.png);
+  box-shadow: 5px 5px 5px #3B3B3E;
+  display: block;
+  text-color: black;
+  margin-left: 50px;
+  padding: 20px;
+  float: left;
+  border-radius: 15px;
+}
+/* line 12, ../sass/_left-sidebar.scss */
+.left-sidebar img {
+  padding-left: 10px;
+  height: 130px;
+  width: 130px;
+}
+/* line 17, ../sass/_left-sidebar.scss */
+.left-sidebar h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #2B2B35;
+}
+/* line 23, ../sass/_left-sidebar.scss */
+.left-sidebar h2 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+/* line 26, ../sass/_left-sidebar.scss */
+.left-sidebar h2 a:link {
+  text-decoration: none;
+  color: #00B28F;
+}
+/* line 30, ../sass/_left-sidebar.scss */
+.left-sidebar h2 a:hover {
+  text-decoration: none;
+  color: #007D64;
+}
+/* line 34, ../sass/_left-sidebar.scss */
+.left-sidebar h2 a:visited {
+  color: #007D64;
+}
+/* line 37, ../sass/_left-sidebar.scss */
+.left-sidebar h2 a:active {
+  color: #00B28F;
+}
+
+/* line 1, ../sass/_footer.scss */
+.footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+/* line 1, ../sass/_middle-main.scss */
+.middle-main {
+  width: 900px;
+  height: 550px;
+  padding: 20px;
+  background: url(../img/grey_wash_wall.png);
+  float: left;
+  display: block;
+  margin-left: 50px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #3B3B3E;
+}
+/* line 11, ../sass/_middle-main.scss */
+.middle-main h2 {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 30px;
+  color: #FFFFF8;
+}
+/* line 18, ../sass/_middle-main.scss */
+.middle-main div img {
+  height: 320px;
+  width: 250px;
+}
+/* line 24, ../sass/_middle-main.scss */
+.middle-main h3 a:link {
+  text-decoration: none;
+  color: #CCFFCC;
+}
+/* line 28, ../sass/_middle-main.scss */
+.middle-main h3 a:hover {
+  text-decoration: none;
+  color: #CCFFCC;
+}
+/* line 32, ../sass/_middle-main.scss */
+.middle-main h3 a:visited {
+  color: #CCFFCC;
+}
+/* line 35, ../sass/_middle-main.scss */
+.middle-main h3 a:active {
+  color: #CCFFCC;
+}
+/* line 39, ../sass/_middle-main.scss */
+.middle-main img {
+  float: left;
+  display: block;
+  width: 339px;
+  height: 303px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+/* line 47, ../sass/_middle-main.scss */
+.middle-main .review-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #FFFFF8;
+  font-weight: -10;
+}
+/* line 55, ../sass/_middle-main.scss */
+.middle-main #fire-emblem img {
+  width: 500px;
+  height: 281px;
+}
+
+/* line 62, ../sass/_middle-main.scss */
+.middle-main2 {
+  width: 900px;
+  height: 550px;
+  padding: 20px;
+  background: url(../img/grey_wash_wall.png);
+  float: right;
+  margin-top: 20px;
+  margin-right: 45px;
+  display: block;
+  margin-left: 50px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #3B3B3E;
+}
+/* line 74, ../sass/_middle-main.scss */
+.middle-main2 h2 {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 30px;
+  color: #FFFFF8;
+}
+/* line 81, ../sass/_middle-main.scss */
+.middle-main2 div img {
+  height: 320px;
+  width: 250px;
+}
+/* line 87, ../sass/_middle-main.scss */
+.middle-main2 h3 a:link {
+  text-decoration: none;
+  color: #CCFFCC;
+}
+/* line 91, ../sass/_middle-main.scss */
+.middle-main2 h3 a:hover {
+  text-decoration: none;
+  color: #CCFFCC;
+}
+/* line 95, ../sass/_middle-main.scss */
+.middle-main2 h3 a:visited {
+  color: #CCFFCC;
+}
+/* line 98, ../sass/_middle-main.scss */
+.middle-main2 h3 a:active {
+  color: #CCFFCC;
+}
+/* line 102, ../sass/_middle-main.scss */
+.middle-main2 img {
+  float: left;
+  display: block;
+  width: 330px;
+  height: 380px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+/* line 110, ../sass/_middle-main.scss */
+.middle-main2 .review-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #FFFFF8;
+  font-weight: -10;
+}
+/* line 118, ../sass/_middle-main.scss */
+.middle-main2 #fire-emblem img {
+  width: 500px;
+  height: 281px;
+}

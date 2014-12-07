@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <title>About Me</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/application.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  <script src="js/time.js"></script>
+</head>
+<body background = "img/stardust.png">
+  <section class = "header">
+    <img src="img/website_banner.jpg"></img>
+    <hr>
+  </section>
+
+  <article class = "left-sidebar">
+    <img src="img/pika.gif" align="left"></img>
+    <h1>Hi.</h1>
+    <h2><a href="index.html">Home</a></h2>
+    <h2><a href="about.html">About Me</a></h2>
+    <h2><a href="contact.html">Contact</a></h2>
+    <h2><a href="nintendo.html">Nintendo Reviews</a></h2>
+    <h2><a href="more.html">More Reviews</a></h2>
+  </article>
+
+  <section class = "middle-main">
+    <div><img src="img/profile_pic.png"></img></div>
+    <section class="review-text">
+    <h3>Hi! My name is Kiera Wheatley. I am 20 years old. I'm a junior at Michigan State University studying Computer Science. I also work at SNworks, where I am a web developer. Someday, I would love to combine my love of programming and video games and work as a game developer.</h3>
+    <h3>I've been playing video games since I was very young, and I've never stopped. I don't think I spend as much time (or money) on games than anything else. Who needs clothes or food anyway? Ha ha ha.</h3>
+    <h3>Basically, here you can read my rants about video games. I usually have a lot to say about them. Unfortunately, because of college and being in such a demanding major, I don't have as much time as I would like to sit and play these games for hours on end. But, that doesn't always stop me!</h3>
+    <img src="img/toon_link.gif"></img>
+
+    </section>
+  </section>
+
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <section class="footer">
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+      </script>
+
+      <script type="text/javascript">
+        tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+        tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+        function GetClock(){
+          var d=new Date();
+          var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear(),nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+          if(nhour==0){ap=" AM";nhour=12;}
+          else if(nhour<12){ap=" AM";}
+          else if(nhour==12){ap=" PM";}
+          else if(nhour>12){ap=" PM";nhour-=12;}
+
+          if(nyear<1000) nyear+=1900;
+          if(nmin<=9) nmin="0"+nmin;
+          if(nsec<=9) nsec="0"+nsec;
+
+          document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+        }
+
+        window.onload=function(){
+          GetClock();
+          setInterval(GetClock,1000);
+        }
+      </script>
+      <div id="clockbox" style="font:14pt Arial; color:#FFFFFF;"></div>
+    </section>
+  </body>
+  </html>
